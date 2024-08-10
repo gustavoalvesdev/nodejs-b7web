@@ -4,13 +4,13 @@
   "description": "Curso de NodeJS da B7Web",
   "main": "teste.js",
   "scripts": {
-    "start": "node ./teste.js",
-    "qualquer": "node ./outro.js"
+    "start": "ts-node teste.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }

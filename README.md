@@ -12,3 +12,24 @@ Curso de NodeJS da B7Web
 
 ## Instalar o TypeScript como dependência de desenvolvimento global (em todos os projetos)
 `npm install -g typescript`
+
+## Verificar e compilar o arquivo TS
+`npx tsc teste.ts`
+
+## Criar o arquivo de configuração tsconfig.json
+`npx tsc --init`
+
+## No tscofing.json descomentar "outDir" e inserir a pasta onde ficarão os aruqivos compilados
+`outDir: "./dist"`
+
+## Compilar os arquivos que achar e colocar na pasta dist
+`npx tsc`
+
+## Após acrescentar o comando build na parte scripts do package.json, rodar o comando para compilar:
+`npm run build`
+
+## Instalar a lib ts-node (biblioteca utilizada para compilar e rodar ao mesmo tempo)
+`npm i -D ts-node`
+
+## User o ts-node - Já incluí no package.json, de forma que não preciso mais usar, posso usar apenas o npm install ;) 
+`ts-node teste.ts`

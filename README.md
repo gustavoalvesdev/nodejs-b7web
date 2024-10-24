@@ -37,8 +37,11 @@ Curso de NodeJS da B7Web
 ## Habilitar o modo watch do Node 
  `node --watch src/outro.js`
 
- ## Inserir o TypeScript no modo watch
+## Inserir o TypeScript no modo watch
 `npm i -D tsx`
 
- ### Rodar o Modo Watch
- `node --import=tsx --watch src/outro.ts`
+### Rodar o Modo Watch
+`node --import=tsx --watch src/outro.ts`
+
+ ## Dependência do TypeScript para Node
+ `npm i -D @types/node`

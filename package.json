@@ -4,13 +4,14 @@
   "description": "Curso de NodeJS da B7Web",
   "main": "teste.js",
   "scripts": {
-    "start": "ts-node src/teste.ts"
+    "start": "node --import=tsx --watch src/teste.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.5.4"
   }
 }

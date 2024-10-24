@@ -33,3 +33,12 @@ Curso de NodeJS da B7Web
 
 ## User o ts-node - Já incluí no package.json, de forma que não preciso mais usar, posso usar apenas o npm install ;) 
 `ts-node src/teste.ts`
+
+## Habilitar o modo watch do Node 
+ `node --watch src/outro.js`
+
+ ## Inserir o TypeScript no modo watch
+`npm i -D tsx`
+
+ ### Rodar o Modo Watch
+ `node --import=tsx --watch src/outro.ts`

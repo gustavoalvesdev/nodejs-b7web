@@ -2,9 +2,9 @@
   "name": "nodejs-b7web",
   "version": "1.0.0",
   "description": "Curso de NodeJS da B7Web",
-  "main": "teste.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "node --env-file=.env --import=tsx --watch src/teste.ts"
+    "start": "node --env-file=.env --import=tsx --watch src/server.ts"
   },
   "keywords": [],
   "author": "",

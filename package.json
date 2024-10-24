@@ -4,7 +4,7 @@
   "description": "Curso de NodeJS da B7Web",
   "main": "teste.js",
   "scripts": {
-    "start": "ts-node teste.ts"
+    "start": "ts-node src/teste.ts"
   },
   "keywords": [],
   "author": "",

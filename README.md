@@ -14,7 +14,7 @@ Curso de NodeJS da B7Web
 `npm install -g typescript`
 
 ## Verificar e compilar o arquivo TS
-`npx tsc teste.ts`
+`npx tsc src/teste.ts`
 
 ## Criar o arquivo de configuração tsconfig.json
 `npx tsc --init`
@@ -32,4 +32,4 @@ Curso de NodeJS da B7Web
 `npm i -D ts-node`
 
 ## User o ts-node - Já incluí no package.json, de forma que não preciso mais usar, posso usar apenas o npm install ;) 
-`ts-node teste.ts`
+`ts-node src/teste.ts`

@@ -43,5 +43,14 @@ Curso de NodeJS da B7Web
 ### Rodar o Modo Watch
 `node --import=tsx --watch src/outro.ts`
 
- ## Dependência do TypeScript para Node
- `npm i -D @types/node`
+## Dependência do TypeScript para Node
+`npm i -D @types/node`
+
+## Dependência do Express
+`npm i express`
+
+## Dependência do Express
+`npm i express`
+
+### Dependência TypeScript do Express
+`npm i -D @types/express`

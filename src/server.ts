@@ -1,26 +1,18 @@
-import { createServer, ServerResponse } from 'node:http';
+import express from 'express';
 
-/**
- * Função que cria um servidor HTTP.
- * 
- * @param {IncomingMessage} req - Dados que a requisição receberá
- * @param {ServerResponse} res -  Resposta da requisição
- */
+// servidor express
+const server = express();
 
-const nomeMedico = 'Pedro Lemos';
-const especialidadeMedico = 'Oftamologista';
+// requisição get
+server.get('/', (req, res) => {
 
-const server = createServer((req, res) => {
+    let name: string = 'Gustavo';
+    let age: number = 33;
 
-    // Exibe um texto como resposta e fim da requisição
-    res.end(`Dr. ${nomeMedico} | ${especialidadeMedico}`);
-
+    res.send(`Olá, meu nome é ${name} e eu tenho ${age} anos`);
 });
 
-/*
-    Atrelar o servidor a uma porta específica (3000, nesse caso)
-    A arrow function do segundo parâmetro é opcional, apenas para mensagens de feedback
- */
-server.listen(3000, () => {
-    console.log('Servidor funcionando em http://localhost:3000');
+// porta que vai rodar o servidor
+server.listen('3000', () => {
+    console.log('Servidor está rodando no link: http://localhost:3000');
 });

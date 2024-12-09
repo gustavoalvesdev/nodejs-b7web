@@ -54,3 +54,6 @@ Curso de NodeJS da B7Web
 
 ### Dependência TypeScript do Express
 `npm i -D @types/express`
+
+## Dependência do Helmet
+`npm i helmet`

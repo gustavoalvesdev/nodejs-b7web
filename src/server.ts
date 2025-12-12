@@ -2,8 +2,6 @@ import express, { urlencoded } from 'express';
 import helmet from 'helmet';
 import path from 'path';
 import router from './routes';
-import produtosRouter from './routes/produtos';
-import voosRouter from './routes/voos';
 
 // servidor express
 const server = express();
@@ -17,8 +15,6 @@ server.use(express.urlencoded({extended: true}));
 // middleware para configurar a pasta ./public da aplicação
 server.use(express.static(path.join(__dirname, '../public')));
 
-server.use('/produtos', produtosRouter);
-server.use('/voos', voosRouter);
 server.use('/', router);
 
 // porta que vai rodar o servidor
